@@ -6,7 +6,7 @@ Javascript REPL is a javascript playground for Visual Studio Code with live feed
 
 ## Features
 
-By pressing cmd(or ctrl) + shift + l as shortcut or by using the command "JS Repl: Run" and by using console.log statement,you can display the result of whatever expression you want (Variable, Function, Object etc..). JS Repl can be activated on file types(.js, .ts, .coffee, .jsx, .tsx, .vue) or by launching "JS Repl: New ..." available commands.
+By pressing cmd(or ctrl) + shift + l as shortcut or by using the command "JS Repl: Run" and by using console.log statement,you can display the result of whatever expression you want (Variable, Function, Object etc..). JS Repl can be activated on file types(.js, .ts, .coffee, .jsx, .tsx, .vue) or by launching "JS Repl: New ...". Users can check the [available commands](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Commands) or the [extension's configuration](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Configuration) on the wiki pages.
 
 - Logs through comments or by using console.log
 - Show or copy value of an expression, without add comments or console.logs
@@ -58,6 +58,10 @@ hello(); //= obj
 Users can find the extension in marketplace at the following url:
 
 🎉 https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl
+
+## Issues
+
+Javascript REPL extension does not send any analytics data about the users or the kind of use that they are doing. So It will be very helpful, if you report an issue about a problem that you had during your repl sessions, and is really appreciated, if you provide any feedback about the extension user experience ♡. More information [about issues](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Issues) or the [part of the source code](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Source-Code) that have not been open-sourced yet users can find on wiki pages.
 
 ## Credits
 
