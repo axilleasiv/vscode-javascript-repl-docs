@@ -49,7 +49,7 @@ obj; //= $.language
 //  also inside the log comments you can print every expression in your scope
 hello(); //= obj
 
-// Besides, you can select one or more variables or expressions and press right click
+// Besides, you can select one or more variables or expressions and press right-click
 //and select show value or explore the logs at the explorer on the left
 ```
 
