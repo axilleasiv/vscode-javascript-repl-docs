@@ -1,6 +1,6 @@
 # Javascript REPL
 
-Javascript REPL is a javascript playground for Visual Studio Code with live feedback(logs or errors) as you type, besides your code, in a log explorer, or in an output channel. It supports Javascript, TypeScript, CoffeeScript and it can be used for development in Node.js projects or with frond end frameworks like React, Vue, Angular, Svelte etc.
+Javascript REPL is a javascript playground for Visual Studio Code with live feedback(logs or errors) as you type, besides your code, in a log explorer, or in an output channel. It supports Javascript, TypeScript, CoffeeScript and it can be used for development in Node.js projects or with front-end frameworks like React, Vue, Angular, Svelte etc.
 
 ![Screenshot of vscode javascript repl with react project](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/preview1.jpg)
 
@@ -15,7 +15,7 @@ By pressing cmd(or ctrl) + shift + l as shortcut or by using the command "JS Rep
 - Live code coverage
 - Imported files support
 - Easy install for missing modules
-- Multi files loggins or errors per project
+- Multi files loggings or errors per project
 - async results rendering
 - JavaScript, TypeScript and CoffeeScript support
 
