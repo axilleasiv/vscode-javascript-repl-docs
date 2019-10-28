@@ -17,9 +17,10 @@ By pressing cmd(or ctrl) + shift + l as shortcut or by using the command "JS Rep
 - Live code coverage
 - Imported files support
 - Easy install for missing modules
-- Multi files loggings or errors per project
-- async results rendering
+- Multi-file support for logs or errors per project
+- Async results(logs, errors) rendering
 - JavaScript, TypeScript and CoffeeScript support
+- Node.js support
 
 ![Screenshot of vscode javascript repl with Vue project](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/preview2.jpg)
 
