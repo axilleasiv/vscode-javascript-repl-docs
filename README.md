@@ -62,6 +62,8 @@ Users can find the extension in marketplace at the following url:
 
 🎉 https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl
 
+Javascript REPL **requires node.js(>= 10.15.0)** to be installed.
+
 ## Issues
 
 Javascript REPL extension does not send any analytics data about the users or the kind of use that they are doing. So It will be very helpful, if you report an issue about a problem that you had during your repl sessions, and is really appreciated, if you provide any feedback about the extension user experience ♡. More information [about issues](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Issues) or the [part of the source code](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Source-Code) that have not been open-sourced yet users can find on wiki pages.
