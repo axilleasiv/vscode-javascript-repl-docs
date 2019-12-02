@@ -62,7 +62,7 @@ Users can find the extension in marketplace at the following url:
 
 🎉 https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl
 
-Javascript REPL **requires node.js(>= 10.15.0)** to be installed.
+Javascript REPL **requires node.js(>= 10.10.0)** to be installed, and node executable to be available in ```PATH```
 
 ## Issues
 
