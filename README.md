@@ -2,27 +2,30 @@
 
 Javascript REPL is a javascript playground for Visual Studio Code with live feedback(logs or errors) as you type, besides your code, in a log explorer, or in an output channel. It supports Javascript, TypeScript, CoffeeScript and it can be used for development in Node.js projects or with front-end frameworks like React, Vue, Angular, Svelte etc.
 
-## Preview video
-
-[![Watch the video](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/preview_youtube.jpg)](https://www.youtube.com/watch?v=Ef75DChLMO8)
+![vscode javascript repl in action](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/vscode-javascript-repl.gif)
 
 ## Features
 
 By pressing cmd(or ctrl) + shift + l as shortcut or by using the command "JS Repl: Run" and by using console.log statement,you can display the result of whatever expression you want (Variable, Function, Object etc..). JS Repl can be activated on file types(.js, .ts, .coffee, .jsx, .tsx, .vue) or by launching "JS Repl: New ...". Users can check the [available commands](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Commands) or the [extension's configuration](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Configuration) on the wiki pages.
 
+- JavaScript, TypeScript and CoffeeScript support
+- Node.js support
+- React.js & Vue.js compatible
 - Logs through comments or by using console.log
 - Show or copy value of an expression, without add comments or console.logs
-- Logs explorer at the left
-- Output window with all the logs
+- Explorer window with the log values and errors
+- Output window with the log values and errors
 - Live code coverage
+- Show log values on edit or or on save.
 - Imported files support
 - Easy install for missing modules
 - Multi-file support for logs or errors per project
 - Async results(logs, errors) rendering
-- JavaScript, TypeScript and CoffeeScript support
-- Node.js support
+- ui customization in coverage & log colors
 
-![Screenshot of vscode javascript repl with Vue project](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/preview2.jpg)
+## Preview video
+
+[![Watch the video](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/preview_youtube.jpg)](https://www.youtube.com/watch?v=Ef75DChLMO8)
 
 ### Logging
 
@@ -30,15 +33,15 @@ Users can add logs in their code with the following ways:
 
 ```js
 // You can add logs by using console.log
-console.log('We ♡ JavaScript!');
+console.log("We ♡ JavaScript!");
 
 // or by using a comment line with equals sign at the end of an expression
 const obj = {
-  language: 'javascript'
+  language: "javascript"
 }; //=
 
 function hello() {
-  return 'Hello World!';
+  return "Hello World!";
 }
 // or a comment block with equals sign
 hello(); /*= */
@@ -62,7 +65,7 @@ Users can find the extension in marketplace at the following url:
 
 🎉 https://marketplace.visualstudio.com/items?itemName=achil.vscode-javascript-repl
 
-Javascript REPL **requires node.js(>= 10.10.0)** to be installed, and node executable to be available in ```PATH```
+Javascript REPL **requires node.js(>= 10.10.0)** to be installed, and node executable to be available in `PATH`
 
 ## Issues
 
