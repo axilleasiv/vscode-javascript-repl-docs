@@ -1,8 +1,12 @@
-# Javascript REPL
+# JavaScript REPL
 
-Javascript REPL is a javascript playground for Visual Studio Code with live feedback(logs or errors) as you type, besides your code, in a log explorer, or in an output channel. It supports Javascript, TypeScript, CoffeeScript and it can be used for development in Node.js projects or with front-end frameworks like React, Vue, Angular, Svelte etc.
+JavaScript REPL is a javascript playground for Visual Studio Code with live feedback(logs or errors) as you type, besides your code, in a log explorer, or in an output channel. It supports Javascript, TypeScript, CoffeeScript and it can be used for development in Node.js projects or with front-end frameworks like React, Vue, Angular, Svelte etc.
 
 ![vscode javascript repl in action](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/vscode-javascript-repl.gif)
+
+## New Features
+- Markdown support on code blocks. [Learn more](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Markdown-code-blocks)
+- Playground for MDN Web docs, TypeScript official documentation, CoffeeScript, Node.js, lodash, RxJS and Ramda library. [Learn more](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Playground-for-MDN-Web)
 
 ## Features
 
@@ -33,15 +37,15 @@ Users can add logs in their code with the following ways:
 
 ```js
 // You can add logs by using console.log
-console.log("We ♡ JavaScript!");
+console.log('We ♡ JavaScript!');
 
 // or by using a comment line with equals sign at the end of an expression
 const obj = {
-  language: "javascript"
+  language: 'javascript'
 }; //=
 
 function hello() {
-  return "Hello World!";
+  return 'Hello World!';
 }
 // or a comment block with equals sign
 hello(); /*= */
@@ -79,6 +83,8 @@ The icons that I used are not mine, so I would like to say thank you to the foll
 - [Dave Gandy on flaticon](https://www.flaticon.com/authors/dave-gandy)
 - [Vaaddin on flaticon](https://www.flaticon.com/authors/vaadin)
 - [Font Awesome](https://fontawesome.com/)
+
+The documentation resources in the playground markdown docs are served through the [devdocs.io](https://devdocs.io/) API.
 
 This extension uses under the hood a modified version of [Parcel](https://parceljs.org/) bundler. So I would like to say a big thank you to the guys there. You can find the modified version at the following [branch](https://github.com/axilleasiv/parcel/tree/vs-repl).
 
