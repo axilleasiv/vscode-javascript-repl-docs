@@ -5,8 +5,10 @@ JavaScript REPL is a javascript playground for Visual Studio Code with live feed
 ![vscode javascript repl in action](https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/vscode-javascript-repl.gif)
 
 ## New Features
+
 - Markdown support on code blocks. [Learn more](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Markdown-code-blocks)
 - Playground for MDN Web docs, TypeScript official documentation, CoffeeScript, Node.js, lodash, RxJS and Ramda library. [Learn more](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Playground-for-MDN-Web)
+- Performance measurement. [Learn more](https://github.com/axilleasiv/vscode-javascript-repl-docs/wiki/Performance-measurement)
 
 ## Features
 
